@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: mini--kuma-zone
+  name: mbpro--kuma-zone
   namespace: argocd
 spec:
-  project: mini
+  project: mbpro
   source:
     repoURL: 'https://github.com/amanibhavam/spiral-mbpro'
     path: kuma-zone
     targetRevision: master
   destination:
-    name: mini
+    name: mbpro
     namespace: kuma-system
   syncPolicy:
     automated:
