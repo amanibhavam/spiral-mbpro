@@ -1,0 +1,6 @@
+- op: replace
+  path: /data/cluster-id
+  value: 103
+- op: replace
+  path: /data/cluster-name
+  value: mbpro

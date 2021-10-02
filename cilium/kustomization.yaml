@@ -3,3 +3,9 @@ kind: Kustomization
 
 resources:
   - https://github.com/letfn/katt-cilium/base?ref=0.0.5
+
+patches:
+  - path: patch-configmap-cilium-config-cluster-mesh.yaml
+    target:
+      kind: ConfigMap
+      name: cilium-config
