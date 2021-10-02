@@ -4,3 +4,6 @@
 - op: replace
   path: /data/cluster-name
   value: mbpro
+- op: replace
+  path: /data/cluster-pool-ipv4-cidr
+  value: 10.88.0.0/16
