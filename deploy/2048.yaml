@@ -7,7 +7,7 @@ spec:
   project: mbpro
   source:
     repoURL: 'https://github.com/amanibhavam/spiral-mini'
-    path: 2048
+    path: "2048"
     targetRevision: master
   destination:
     name: mbpro
