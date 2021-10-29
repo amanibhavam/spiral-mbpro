@@ -6,7 +6,7 @@ metadata:
 spec:
   project: mbpro
   source:
-    repoURL: 'https://github.com/amanibhavam/spiral-mini'
+    repoURL: 'https://github.com/amanibhavam/spiral-mbpro'
     path: "2048"
     targetRevision: master
   destination:
